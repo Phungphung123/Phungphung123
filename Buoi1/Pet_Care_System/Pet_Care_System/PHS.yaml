@@ -1,0 +1,30 @@
+! |- Pet Care System / Hệ thống Chăm sóc Thú cưng
+1   |- Customer / Khách hàng
+2       |- Manage Pets / Quản lý Thú cưng
+3           |- Pet List / Danh sách Thú cưng
+4           |- Pet Details (with medical history and vaccination records) / Chi tiết Thú cưng (kèm lịch sử khám chữa bệnh và vaccine)
+5       |- Book Appointment / Đặt lịch khám
+6           |- Select time (charge for booking) / Chọn thời gian (có phí đặt lịch)
+7           |- Select Vet (optional, if not selected, staff will assign) / Chọn Bác sĩ thú y (tùy chọn, nếu không chọn, nhân viên sẽ chỉ định)
+8           |- Cancellation policy (refund based on time before appointment) / Chính sách hủy lịch (hoàn tiền dựa trên thời gian trước lịch hẹn)
+9       |- Checkin for appointment / Checkin khi đến khám
+10          |- Pay for extra services / Thanh toán dịch vụ phát sinh
+11      |- Rate medical checkups / Đánh giá các lần khám
+12      |- Monitor in-hospital pets / Theo dõi thú cưng nhập viện
+13
+14  |- Staff / Nhân viên
+15      |- Manage Cage information / Quản lý thông tin chuồng (phòng)
+16      |- Manage booking, and handle cancellation / Quản lý lịch hẹn và xử lý hủy lịch
+17      |- Manage in-hospital pets (update status for customer) / Quản lý thông tin thú cưng nhập viện (cập nhật trạng thái cho khách hàng)
+18      |- Schedule for vets (not booking cases) / Sắp lịch cho bác sĩ (trường hợp không đặt lịch trước)
+19      |- Schedule for vets with in-hospital pets / Sắp lịch cho bác sĩ chăm sóc thú cưng nhập viện
+20
+21  |- Veterinarian / Bác sĩ thú y
+22      |- View scheduling options / Xem lịch làm việc
+23      |- Pet Checkup (recording history) / Khám cho thú cưng (ghi nhận hồ sơ)
+24      |- In-hospital Pet Care (recording history) / Chăm sóc thú cưng nhập viện (ghi nhận hồ sơ)
+25
+26  |- Admin / Quản trị viên
+27      |- Manage Account / Quản lý tài khoản
+28      |- System Configuration / Cấu hình hệ thống
+29      |- System Revenue Statistic / Thống kê doanh thu hệ thống
